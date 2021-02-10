@@ -28,7 +28,7 @@ function changeDialValue (index, incrementBy) {
   lockState.wheels[index] += incrementBy;
   if (lockState.wheels.map((value, index) => value).join(",") === SECRET_COMBO.join(",")) {
     lockState.locked = false;
-    redirect('larry-lobster')
+    redirect('danny-tseng')
   }
 }
 
